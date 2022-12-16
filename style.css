@@ -47,12 +47,15 @@ body {
     text-decoration: none;
     margin: 0 10px;
     user-select: none;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0);
+    animation: text-shadow 10s linear infinite;
 }
 
 .links a:hover {
-    color: #555555;
+    opacity: 75%;
     user-select: none;
-    transition: 0.5s;
+    transition: 1s;
+    color: rgba(44, 39, 39, 0.68);
 }
 
 .fa {
@@ -63,24 +66,59 @@ h1 {
     color: white;
     font-size: 60px;
     user-select: none;
+    display: block;
+    margin: 0 auto;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0);
+    animation: text-shadow 10s linear infinite;
 }
-
-
-.d-trigger {
-    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
-    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
-    transition: text-shadow 1s;
-  }
-
-.d-trigger:hover {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.65);
-    transform: scale(1.1);
-  }
 
 h2 {
     color: white;
     font-size: 20px;
     user-select: none;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0);
+    animation: text-shadow 10s linear infinite;
 }
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 80px;
+        display: block;
+        margin: 0 auto;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    .links a {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 35px;
+        display: block;
+        margin: 0 auto;
+    }
+    h2 {
+        font-size: 15px;
+    }
+    .links a {
+        font-size: 32px;
+    }
+}
+
+@keyframes text-shadow {
+    0% {
+        text-shadow: 0 0 0 rgba(0, 0, 0, 0); /* No text shadow */
+    }
+    50% {
+        text-shadow: 2px 2px 4px rgba(134, 56, 56, 0.65); /* Text shadow at 50% */
+    }
+    100% {
+        text-shadow: 0 0 0 rgba(0, 0, 0, 0); /* No text shadow */
+    }
+}
+
 
 
