@@ -1223,3 +1223,9 @@ FileETag None
 #     RewriteRule ^(.+)\.(\w+)\.(bmp|css|cur|gif|ico|jpe?g|m?js|a?png|svgz?|webp|webmanifest)$ $1.$3 [L]
 # </IfModule>
 
+# Force https
+ <IfModule mod_rewrite.c>
+    RewriteEngine On
+     RewriteCond %{HTTPS} off
+        RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+    </IfModule>
