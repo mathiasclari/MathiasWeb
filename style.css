@@ -21,7 +21,7 @@ body {
     min-height: 100vh;
     background: linear-gradient(45deg, #00FFFF, #40E0D0, #00FFFF,#87CEEB,#ADD8E6,#AFEEEE,#87CEFA,#CCCCFF,#E6E6FA,#DDA0DD,#FFC0CB,#FF69B4,#FF1493,#FF0066);
     background-size: 400% 400%;
-    animation: gradient 10s ease infinite;
+    animation: gradient 20s ease infinite;
 }
 
 @keyframes gradient {
@@ -48,7 +48,7 @@ body {
     margin: 0 10px;
     user-select: none;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0);
-    animation: text-shadow 10s linear infinite;
+    animation: text-shadow 20s linear infinite;
 }
 
 .links a:hover {
@@ -69,7 +69,7 @@ h1 {
     display: block;
     margin: 0 auto;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0);
-    animation: text-shadow 10s linear infinite;
+    animation: text-shadow 20s linear infinite;
 }
 
 h2 {
@@ -77,7 +77,7 @@ h2 {
     font-size: 20px;
     user-select: none;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0);
-    animation: text-shadow 10s linear infinite;
+    animation: text-shadow 20s linear infinite;
 }
 
 @media (min-width: 768px) {
