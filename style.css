@@ -19,7 +19,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: linear-gradient(45deg, #ee7752, #e73c7e, #d523c6, #d5234d);
+    background: linear-gradient(45deg, #00FFFF, #40E0D0, #00FFFF,#87CEEB,#ADD8E6,#AFEEEE,#87CEFA,#CCCCFF,#E6E6FA,#DDA0DD,#FFC0CB,#FF69B4,#FF1493,#FF0066);
     background-size: 400% 400%;
     animation: gradient 10s ease infinite;
 }
