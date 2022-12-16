@@ -1,4 +1,4 @@
-// You can use this script to add a smooth scroll effect to your links
+
 
 const links = document.querySelectorAll('.links a');
 
