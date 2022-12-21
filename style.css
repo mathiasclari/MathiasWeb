@@ -54,8 +54,10 @@ body {
 .links a:hover {
     opacity: 75%;
     user-select: none;
-    transition: 1s;
+    transition: 0.1ms;
     color: rgba(44, 39, 39, 0.68);
+    border-radius: 5px;
+    padding: 5px;
 }
 
 .fa {
@@ -70,6 +72,15 @@ h1 {
     margin: 0 auto;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0);
     animation: text-shadow 20s linear infinite;
+}
+
+h1:hover {
+    border-radius: 10px;
+    padding: 5px;
+    user-select: none;
+    transition: 0.1ms;
+    color: rgb(248, 248, 248);
+
 }
 
 h2 {
@@ -113,12 +124,9 @@ h2 {
         text-shadow: 0 0 0 rgba(0, 0, 0, 0); /* No text shadow */
     }
     50% {
-        text-shadow: 2px 2px 4px rgba(134, 56, 56, 0.65); /* Text shadow at 50% */
+        text-shadow: 2px 2px 4px rgba(40, 38, 38, 0.65); /* Text shadow at 50% */
     }
     100% {
         text-shadow: 0 0 0 rgba(0, 0, 0, 0); /* No text shadow */
     }
 }
-
-
-
