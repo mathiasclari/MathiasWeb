@@ -1,5 +1,5 @@
 import '../App.css'
-import matimg from '../assets/mathias.jpg'
+import matimg from '../assets/mathias.svg'
 
 export default function WebHeader() {
   return (

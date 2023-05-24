@@ -8,10 +8,8 @@ export default function WebFooter() {
                 <p>Feel free to reach out to me on any of the following platforms:</p>
                 <ul>
                     <li>
-                        <a href="https://github.com/mathiasclari">GitHub</a>
-                    </li>
-                    <li>
                         <a href="https://twitter.com/matonsocials">Twitter</a>
+                        <a href="https://www.instagram.com/matonsocial/">Instagram</a>
                     </li>
                 </ul>
             </div>
